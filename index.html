@@ -9,6 +9,7 @@
 <body>
     <h1>Hello, Vue </h1>
 <div id="app">
+    <!-- this removes element from dom copeletly -->
     <div v-if="showBooks">
         <p> {{title}} -{{author}} - {{age}} </p>
     </div>
@@ -16,6 +17,7 @@
         <span v-if="showBooks">hide books</span>
         <span v-else>show books</span>
     </button>
+    <!-- this changes css -->
     <div v-show="showBooks"> currently showing books</div>
 </div>
 <script src="app.js"></script>
