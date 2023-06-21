@@ -1,5 +1,6 @@
 <template>
 <h1>{{ title }}</h1>
+   <p>pushing this to github on new IDE</p>
 </template>
 
 <script>
